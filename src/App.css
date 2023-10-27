@@ -1,4 +1,4 @@
-.App {
+  .App {
   text-align: center;
 }
 
@@ -13,15 +13,16 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
+  background-color: #282c3400;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgba(255, 255, 255, 0);
 }
 
 .App-link {
@@ -35,4 +36,88 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navtext{
+  color: #7b2f5b !important;
+}
+
+.navtext:hover{
+  color: #511a3a  !important;
+}
+
+.T{
+  color: #e78ea7;
+}
+.about_text{
+  color:blue;
+}
+.banner_text{
+  color: #7b2f5b !important;
+}
+
+.give_head
+{
+  font-size: 3.2rem !important;
+  font-weight: bold !important;
+}
+
+.banner_text2{
+  color: #7b2f5b !important;
+} 
+
+.banner_text6{
+  color: white !important;
+}
+
+.button_back{
+  background-color: #7b2f5b  !important;
+  border: 0px;
+}
+
+.button_back:hover{
+  background-color: #164379  !important;
+}
+
+.back{
+  background-size: cover, contain;
+  border-radius: 4rem;
+}
+
+.back2{
+  background-size: cover, contain;
+  border-radius: 1.5rem;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(0); }
+}
+
+.font-link{
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.col-col{
+  /* background:rgba(163, 55, 134, 0.541); */
+  background:#7b2f5b !important;
+}
+.col-col:hover{
+  background:rgba(0, 1, 1, 0.817) !important;
+}
+
+.edu-p{
+  background:rgba(1, 1, 0, 0.817);
 }
